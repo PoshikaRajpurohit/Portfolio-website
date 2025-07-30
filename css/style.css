@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    height:3px;
+    width:80px;
+    background-color:#20c997;
+}
+.text{
+    color: #20c997;
+}
+/* HEADER */
+header{
+    background-color: transparent;
+}
+
+/* BANNER */
+.banner-items{
+    background:url(../images/banner.jpg) rgba(76,77,77,1) ;
+    height:950px;
+    background-position:bottom;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+.cd-words-wrapper b 
+    {
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        left: 0;
+        top: 0;
+        } 
+.cd-words-wrapper b.is-visible 
+    {
+        position: relative;
+  }
+.no-js .cd-words-wrapper b 
+    {
+        opacity: 0;
+        }
+.no-js .cd-words-wrapper b.is-visible 
+    {
+        opacity: 1;
+        }
+   
+.cd-headline.clip .cd-words-wrapper 
+    {
+        overflow: hidden;
+        vertical-align: top;
+        } 
+.cd-headline.clip .cd-words-wrapper::after 
+    {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background-color: #aebcb9; 
+    } 
+.cd-headline.clip b 
+    {
+    opacity: 0; }
+.cd-headline.clip b.is-visible 
+    {
+    opacity: 1;}
+.banner-content p+a{
+    border:2px solid #20c997!important;
+    color: #20c997!important;
+}
+.banner-content p+a:hover{
+    background-color: #20c997;
+    color: white !important;
+}
+/* ABOUT */
+/* EDUCATION */
+ .card-header span{
+    background-image:linear-gradient(90deg,#F54200 0%, #FFAE00 100%);
+}
+
+/* SKILLS */
+.skill-title span{
+    color:#FFAE00;
+}
